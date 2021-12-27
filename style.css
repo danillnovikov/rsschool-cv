@@ -14,9 +14,7 @@ body {
     box-sizing: border-box;
 }
 
-.footer {
-    border: 45px solid blue;
-}
+
 
 .container {
     max-width: 1440px;
@@ -62,4 +60,40 @@ body {
 
   .marker {
     list-style-type: square;
+  }
+
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: yellow;
+  }
+  .footer_github {
+    position: relative;
+    padding-left: 40px;
+  }
+  .footer_github::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  .footer_year {
+    justify-self: center;
+    color: black;
+  }
+  .footer_rsschool {
+    justify-self: end;
+    height: 32px;
+  }
+  
+  .page-title p {
+    font-size: 20px;
   }
