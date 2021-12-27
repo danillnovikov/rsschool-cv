@@ -94,6 +94,11 @@ body {
     height: 32px;
   }
   
-  .page-title p {
+  .section-title p {
     font-size: 20px;
+  }
+
+  .center {
+    width: 900px;
+    margin: auto;
   }
