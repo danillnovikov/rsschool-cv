@@ -15,24 +15,89 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header"> 
         <div class="container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            
+            </ul>
+          </nav>
     </header>
 
 
-    <main class="main">
+    <main class="main main-container">  
         <div class="container"></div>
-    </main>
 
+        <section class="section" id="profile">
+            <h1 class="section-title">Danii Novikov</h1>
+        </section>
+
+        <section class="section" id="contacts">
+            <h3 class="section-title">Contacts</h3>
+            <ul>
+                <li>+375445347491</li>
+                <li><a href="https://www.linkedin.com/in/daniil-novikov-009178211/">linkedin</a> </li>
+                <li>danill.novikov@mail.ru</li>
+            </ul>
+        </section>
+
+        <section class="section" id="about-me">
+            <h3 class="section-title">About Me</h3>
+        </section>
+
+        <section class="section" id="skills">
+            <h3 class="section-title">Skills</h3>
+        </section>
+
+        <section class="section" id="education">
+            <h3 class="section-title">Education</h3>
+            <p>Belarusian State University of Informatics <br> and Radioelectronics</p>
+        </section>
+
+        <section class="section" id="experience">
+            <h3 class="section-title">Experience</h3>
+            <p>Troubleshooting by products:</p>
+            <ul> 
+                <li>IPTV/OTT</li>
+                <li>VPN, Ethernet</li>
+                <li>Video surveillace, VoIP</li>
+            </ul>
+            <ul class="marker">
+            <li>Troubleshooting with access to Internet via ADSL, <br> GPON, VDSL, WI-FI, routers, etc.</li>
+            <li>Configuring switches and routers (Huawei, ZTE)</li>
+            <li>Prevention and minor repairs of PCs and IT equipment.</li>
+        </ul>
+        </section>
+
+        <section class="section" id="code">
+            <h3 class="section-title">Code</h3>
+            <p>Task: Abbreviate a Two Word Name</p>
+            <p><code>function abbrevName(name) { <br>
+                return name.toUpperCase() <br>
+                           .split(' ') <br>
+                           .map(x => x[0]) <br>
+                           .join('.'); <br>
+              }</code></p>
+        </section>
+
+        <section class="section" id="languages">
+            <h3 class="section-title">Languages</h3>
+            <ul>
+                <li>English - A2</li>
+            </ul>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container"></div>
     </footer>
-
-
-    <h1 class="full-name">Daniil Novikov</h1>
-    <img class="photo" src="assets/image.jpg" alt="my photo" style="width: 200px;">
-    <p class="first-class">This is my first paragraph</p>
 
 </body>
 
