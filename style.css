@@ -1,104 +1,114 @@
 html {
-    scroll-behavior: smooth; 
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 }
 
 .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
-    cursor: pointer
-  }
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
+.linked {
+  text-decoration: none;
+}
 
-  .container {
-    display: flexbox;
-    flex-wrap: wrap;
-  }
-  
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 50%;
-  }
+.section-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
 
-  .marker {
-    list-style-type: square;
-  }
+.section-item a:hover {
+  color: #4d2323;
+}
+
+.container {
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.marker {
+  list-style-type: square;
+}
 
 
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    padding: 20px 60px 20px 60px;
-    color: white;
-    background-color: yellow;
-  }
-  .footer_github {
-    position: relative;
-    padding-left: 40px;
-  }
-  .footer_github::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 32px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-  }
-  .footer_year {
-    justify-self: center;
-    color: black;
-  }
-  .footer_rsschool {
-    justify-self: end;
-    height: 32px;
-  }
-  
-  .section-title p {
-    font-size: 20px;
-  }
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: yellow;
+}
 
-  .center {
-    width: 900px;
-    margin: auto;
-  }
+.footer_github {
+  position: relative;
+  padding-left: 40px;
+}
+
+.footer_github::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.footer_year {
+  justify-self: center;
+  color: black;
+}
+
+.footer_rsschool {
+  justify-self: end;
+  height: 32px;
+}
+
+.section-title p {
+  font-size: 20px;
+}
+
+.center {
+  width: 900px;
+  margin: auto;
+}
